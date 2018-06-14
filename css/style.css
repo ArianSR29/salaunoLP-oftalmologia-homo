@@ -1,0 +1,257 @@
+/*
+Desarrollador: Rodrigo Arenas González
+    >Contacto mail: rodrigo.arenas@intoconsultancy.com
+    >Contacto tel: 5560072127
+Agencia: INTO Consultancy
+    >Web Page: http://intoconsultancy.com/
+
+*/
+@font-face {
+    font-family: DINNextRoundedLTPro-Medium;
+    src: url("../fonts/DINNextRoundedLTPro-Medium.otf");
+}
+@font-face {
+    font-family: DINNextRoundedLTPro-Regular;
+    src: url("../fonts/DINNextRoundedLTPro-Regular.otf");
+}
+@font-face {
+    font-family: DINNextRoundedLTPro-Bold;
+    src: url("../fonts/DINNextRoundedLTPro-Bold.otf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+	outline: none;
+}
+a,aside,body,div,footer,
+form,h1,h2,h3,h4,h5,h6,
+header,html,iframe,img,label,
+li,object,ol,p,pre,span,tbody,
+td,th,tr,ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+
+.dinnM {font-family: DINNextRoundedLTPro-Medium;}
+.dinnR {font-family: DINNextRoundedLTPro-Regular;}
+.dinnB {font-family: DINNextRoundedLTPro-Bold;}
+
+.fs34{font-size: 34px;}
+.fs32{font-size: 32px;}
+.fs28{font-size: 28px;}
+.fs24{font-size: 24px;}
+.fs20{font-size: 20px;}
+.fs18{font-size: 18px;}
+.fs16{font-size: 16px;}
+
+.white{color: #fff;}
+.yellow02{color: #FFCD02;}
+.yellow00{color: #FFCD00;}
+.green8B{color:#00788B;}
+.greenBC{color: #2BB6BC;}
+.greenD3{color: #2DCCD3;}
+
+@media only screen and (min-width: 320px) {
+    .c-top{
+        background: #00788A;
+        text-align: center;
+        padding: 15px 0px;
+    }
+    .c-top a{
+        width: 40%;
+        max-width: 200px;
+    }
+    .c-top-tel{
+        display: none;
+        background: #00788A;
+        text-align: center;
+        width: 100%;
+        height: 60px;
+    }
+    .c-top-tel > img{
+        width: 10px;
+        margin: 0px 5px 2px;
+    }
+    .c-top a img{
+        width: 50%;
+        max-width: 200px;
+    }
+    footer{
+        background: #00788B;
+        padding: 10px 0px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    footer img{
+        width: 14px;
+        margin: 0 5px -4px 0px;
+    }
+    .stiky{
+        display: block;
+        position: fixed;
+        top: 0px;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        border-radius: 0px 0px 15px 15px;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* INICIO DE PORQUE CONFIAR SECTION */
+    .c-porque-confiar-main{
+        width: 100%;
+        height: inherit;
+        background: #fff;
+        padding: 50px 0px;
+    }
+    .porque-title{
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .c-porque-item{
+        width: 91%;
+        margin: 0 auto;
+    }
+    .porque-item{
+        display: flex;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    .porque-item img{
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+    .c-porque-item .porque-item:nth-child(4) span{
+        padding-right: 100px;
+    }
+    /* FIN DE PORQUE CONFIAR SECTION */
+
+    /* INICIO DE ASEGURADORAS SECTION */
+    .c-aseguradoras-main{
+        width: 100%;
+        height: inherit;
+        background: #fff;
+        padding: 50px 0px;
+    }
+    .aseguradoras-title{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .c-aseguradoras-items{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .aseguradora-item{
+        max-width: 120px;
+        width: 30%;
+        align-self: center;
+        margin: 0 auto;
+
+    }
+    /* FIN DE ASEGURADORAS SECTION */
+    /* ESTILOS DE BOTON */
+
+    
+
+    /* ESTILOS DE BOTON */
+
+
+}
+@media only screen and (min-width: 410px) {}
+@media only screen and (min-width: 480px) {}
+/* ----------------------------------------CAMBIO DEL TAMAÑO DE FUENTES------------------------------ */
+@media only screen and (min-width: 680px) {
+   .c-top-tel span{
+       font-size: 26px;
+   }
+   .porque-title span{
+       font-size: 36px;
+   }
+   .porque-item span{
+       font-size: 24px;
+   }
+   .aseguradoras-title span{
+       font-size: 36px;
+   }
+}
+@media only screen and (min-width: 800px) {}
+/* ----------------------------------------CAMBIO------------------------------ */
+@media only screen and (min-width: 1025px) {
+    .c-top{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .c-top-tel{
+        display: flex;
+        align-items: center;
+        width: 40%;
+    }
+    .c-top a img{
+        width: 90%;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    footer p.dinnB.fs20.yellow00 {
+        border-right: solid 4px #FFCD00;
+        padding-right: 10px;
+        height: 23px;
+    }
+    footer span.dinnB.fs24.yellow00 {
+        padding-left:  15px;
+    }
+    .c-aseguradoras-items{
+        width: 80%;
+    }
+    .c-porque-item{
+        display: flex;
+    }
+    .porque-item{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 5px;
+    }
+    .c-porque-item .porque-item:nth-child(4) span{
+        padding: 0;
+    }
+    .porque-item img{
+        margin-right: 0;
+        width: 90px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1920px) {}
